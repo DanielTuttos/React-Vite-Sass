@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "./components/Buttons";
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
           <a href="#">Instagram</a>
         </li>
       </ul>
+      <hr />
+      <h2>Counter: 0</h2>
+      <Buttons type={'btn btn-primary'} text={'+1'}/>
     </div>
   );
 };

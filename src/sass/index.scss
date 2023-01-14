@@ -1,5 +1,24 @@
-@import './config/variables';
-@import './extras/Title';
-@import './extras/links';
-@import './config/global';
-@import './components/buttons';
+// @import './config/variables';
+// @import './extras/Title';
+// @import './extras/links';
+// @import './config/global';
+// @import './components/buttons';
+
+.container_item {
+    width: 95vw;
+    height: 95vh;
+    background-color: aqua;
+    .hijo{
+        display: flex;
+        background-color: red;
+        width: 50vw;
+        height: 75vh;
+        justify-content: flex-end;
+        flex-direction: column;
+        .hijo_hijo{
+            background-color: blue;
+            height: 50vh;
+            overflow: auto;
+        }
+    }
+}
